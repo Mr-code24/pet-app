@@ -1,0 +1,10 @@
+<!-- src/app/login/login.component.html -->
+<div class="login-form">
+    <form (ngSubmit)="onLogin()">
+      <!-- Campos de entrada de usuario y contraseña -->
+  
+      <button type="submit" [disabled]="isLoading">SIGN IN</button>
+      <app-loading-spinner *ngIf="isLoading"></app-loading-spinner>
+    </form>
+  </div>
+  
