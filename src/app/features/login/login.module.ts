@@ -4,6 +4,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
 @NgModule({
   declarations: [
     LoginFormComponent
@@ -12,7 +17,11 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     ReactiveFormsModule,
     LoginRoutingModule,
-    SharedModule
+    SharedModule,
+    MatInputModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    MatProgressSpinnerModule
   ],
   providers: []
 })
