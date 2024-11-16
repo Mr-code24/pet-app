@@ -4,11 +4,13 @@ import { HomeRoutingModule } from './home-routing.module';
 import { MenuComponent } from './components/menu/menu.component';
 import { ContentComponent } from './components/content/content.component';
 import { SharedModule } from '../../shared/shared.module';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [
     MenuComponent,
-    ContentComponent
+    ContentComponent,
+    HeroComponent
   ],
   imports: [
     CommonModule,

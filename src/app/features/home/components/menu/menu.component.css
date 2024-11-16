@@ -1,3 +1,8 @@
-:host {
-  display: block;
+.item-menu:hover{
+ color: rgb(229 231 235);
+ transition-duration: 200ms;
+ cursor: pointer;
+}
+.item-menu{
+  transition-duration: 200ms;
 }
